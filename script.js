@@ -93,3 +93,147 @@ fruits[0] = 'kiwi';
 // console.log(fruits);
 
 
+// Removing element begining of the array
+// fruits.shift();
+// console.log(fruits);
+
+// Date
+// const date = new Date("2024-05-28");
+// console.log(date);
+
+// Checking variable type
+// const fristName = "Prince";
+// console.log(typeof fristName);
+
+// Operators
+// Arithmetic => +, -, *, /, %, **, ++, --
+// let x = 5;
+// let y = 10;
+
+// let result = x * y; // addition
+// console.log(result);
+
+// Logical operators => &&, ||, !
+// || => OR
+// && => AND
+// ! => NOT
+
+// T | T = T
+// T | F = T
+// F | T = T    
+// F | F = F
+
+// && T| T = T
+// && T| F = F 
+// && F| T = F
+// && F| F = F
+
+// ! T = F
+// ! F = T
+
+// let x = true;
+// let y = !x;
+// console.log(y);
+
+// Comparison Operators => ==, ===, !=, !==, >, <, >=, <=
+
+// let x= 5 === '5';
+// console.log(x);
+
+// Conditions
+// if, else if, else
+// let age = 20;
+// if(age >= 22){
+//     console.log("You are an adult.");
+// }
+// else{
+//     console.log("You are can\'t minor.");
+// }
+
+// let marks = 85;
+// if(marks>= 90){
+//     console.log("A+");
+// }
+// else if(marks>= 80 && marks<90){
+//     console.log("A");
+// }
+// else if(marks>= 70 && marks<80){
+//     console.log("B+");
+// }
+// else if(marks>= 60 && marks<70){
+//     console.log("B");
+// }
+// else if(marks>= 50 && marks<60){
+//     console.log("C+");
+// }
+// else if(marks>= 40 && marks<50){
+//     console.log("C");
+// }
+// else{
+//     console.log("F");
+// }   
+
+
+// ternary operator
+// let age = 2;
+// age>=18 ? console.log('you are voter') : console.log('your are not voter');
+
+// Nulish coalescing operator
+// const userInput = undefined;
+// const userName = userInput ?? "Guest";
+// console.log(userName);
+
+// let marks = 85;
+
+// switch(marks){
+//     case 90:
+//         console.log("A+");
+//         break;
+//     case 80:
+//         console.log("A");
+//         break;
+//     case 70:
+//         console.log("B+");
+//         break;
+//     case 60:
+//         console.log("B");
+//         break;
+//     case 50:
+//         console.log("C+");
+//         break;
+//     case 40:
+//         console.log("C");
+//         break;
+//     default:
+//         console.log("F");
+// }
+
+
+// Functions
+let x = 5;
+let y = 10;
+let result = x+y;
+console.log(result);
+
+let a = 5;
+let b = 10;
+let sum = a+b;
+console.log(result);
+
+// Function Declaration
+// function add(x,y){
+//     let sum = x+y;
+//     return sum;
+// }
+// let res1= add(5,10);
+// let res2= add(5,15);
+// console.log(res1);
+// console.log(res2);
+
+
+function add(x,y){
+    let sum = x+y;
+   console.log(sum);
+}
+
+add(5,10);
