@@ -85,5 +85,6 @@ const numbers = [1, 2, 3];
 // OR
 // const add = (x,y) =>console.log(x+y);
 
-const y = x =>  console.log(x*8);
-y(5);
+// const y = x =>  console.log(x*8);
+// y(5);
+

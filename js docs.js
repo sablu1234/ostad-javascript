@@ -231,9 +231,9 @@ console.log(result);
 // console.log(res2);
 
 
-function add(x,y){
-    let sum = x+y;
-   console.log(sum);
-}
+// function add(x,y){
+//     let sum = x+y;
+//    console.log(sum);
+// }
 
-add(5,10);
+// add(5,10);
